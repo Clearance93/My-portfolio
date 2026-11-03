@@ -439,6 +439,7 @@ button { font: inherit; color: inherit; }
 }
 .project:first-of-type { border-top: 0; padding-top: 0; }
 
+.project.reverse { grid-template-columns: minmax(0, .94fr) minmax(0, 1.06fr); }
 .project.reverse .project-visual { order: 2; }
 
 .browser {
